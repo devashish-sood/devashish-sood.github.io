@@ -47,3 +47,24 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          
+  cname:
+    name: Update CNAME
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        
+      - name: Update CNAME
+        run: |
+          git config --global user.name "devashish-sood"
+          git config --global user.email "devashishsood9@gmail.com"
+          git fetch --all
+          git checkout gh-pages
+          git pull origin gh-pages
+          echo "sood.dev" > CNAME
+          ls
+          git add CNAME
+          git commit -m "Add CNAME file"
+          git push origin gh-pages
