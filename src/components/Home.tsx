@@ -17,7 +17,7 @@ const Home = () => {
    <br/>
    <Exps/>
    <br/>
-   <p>More information on my projects and work experiences can be found on my <Link href="/" text="resume"/> and <Link href="https://github.com/devashish-sood" text="github"/>. I can also be contacted via <Link href="https://linkedin.com/in/devashishsood9" text="linkedin"/> or <Link href="mailto:devashishsood9@gmail.com" text="email"/>.</p>
+   <p>More information on my projects and work experiences can be found on my <Link href="/resume.pdf" text="resume"/> and <Link href="https://github.com/devashish-sood" text="github"/>. I can also be contacted via <Link href="https://linkedin.com/in/devashishsood9" text="linkedin"/> or <Link href="mailto:devashishsood9@gmail.com" text="email"/>.</p>
   </>
 }
 
