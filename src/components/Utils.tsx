@@ -8,7 +8,7 @@ const Tooltip =  ({base, hover}: {base: string, hover: string}) => {
 
 const Link = ({href, text}: {href: string, text: string}) => {
   return (
-    <a href={href} className="hover:underline">{text}</a>
+    <a href={href} className="underline">{text}</a>
   )
 }
 
