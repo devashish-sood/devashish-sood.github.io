@@ -7,12 +7,11 @@ const Home = () => {
     Hi, I’m Devashish, a senior studying Mathematics and Computer Science at Northeastern University. I'm interested in building technology for a better future.
   </p>
    <br/>
-    <div>This summer, I'm: </div>
+    <div>Currently, I'm: </div>
    <ul className="list-disc pl-4">
-    <li>working my way through LLM101n.</li>
     <li className="mt-1">writing an operating system in Rust.</li>
-    <li className="mt-1">exploring the Balkans!</li>
-    <li className="mt-1">doing some light Colorado backpacking &#127956;</li>
+    <li className="mt-1">implementing the Raft consensus protocol for distributed systems.</li>
+    <li className="mt-1">reading <Link href="https://papl.cs.brown.edu/2020/" text"PAPL"/> to write my own interpreter and compiler.</li>
    </ul>
    <br/>
    <Exps/>
