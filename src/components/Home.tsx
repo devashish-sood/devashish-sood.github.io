@@ -11,7 +11,7 @@ const Home = () => {
    <ul className="list-disc pl-4">
     <li className="mt-1">writing an operating system in Rust.</li>
     <li className="mt-1">implementing the Raft consensus protocol for distributed systems.</li>
-    <li className="mt-1">reading <Link href="https://papl.cs.brown.edu/2020/" text"PAPL"/> to write my own interpreter and compiler.</li>
+    <li className="mt-1">reading <Link href="https://papl.cs.brown.edu/2020/" text="PAPL"/> to write my own interpreter and compiler.</li>
    </ul>
    <br/>
    <Exps/>
