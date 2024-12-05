@@ -1,8 +1,8 @@
 import { ExpProps } from "./ExpSummary";
 
 type DetailedExpProps = ExpProps & {
-  role: string
-}
+  role: string;
+};
 
 const SingleExp = ({ props }: { props: DetailedExpProps }) => {
   return (
@@ -19,4 +19,4 @@ const SingleExp = ({ props }: { props: DetailedExpProps }) => {
   );
 };
 
-export {SingleExp, type DetailedExpProps}
+export { SingleExp, type DetailedExpProps };

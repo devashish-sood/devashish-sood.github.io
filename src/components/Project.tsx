@@ -6,7 +6,6 @@ interface ProjectProps {
   description: ReactNode;
 }
 
-
 const SingleProject = ({ props }: { props: ProjectProps }) => {
   return (
     <div className="flex my-10">
@@ -21,4 +20,4 @@ const SingleProject = ({ props }: { props: ProjectProps }) => {
   );
 };
 
-export {SingleProject, type ProjectProps}
+export { SingleProject, type ProjectProps };

@@ -80,4 +80,4 @@ const SummarizedExperiences = () => {
   );
 };
 
-export {SummarizedExperiences, type ExpProps}
+export { SummarizedExperiences, type ExpProps };
