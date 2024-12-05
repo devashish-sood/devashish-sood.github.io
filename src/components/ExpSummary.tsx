@@ -50,7 +50,7 @@ interface ExpProps {
   description: ReactNode;
 }
 
-const Exp = (props: ExpProps) => {
+const SingleExpSummary = (props: ExpProps) => {
   return (
     <div className="flex mt-3">
       <div className="w-1 flex-shrink-0 bg-black rounded-lg" />
@@ -65,12 +65,12 @@ const Exp = (props: ExpProps) => {
   );
 };
 
-export const Exps = () => {
+export const SummarizedExperiences = () => {
   return (
     <div>
       <h2 className="text-xl font-bold">Past Experiences</h2>
       {EXPERIENCES.map((exp) => (
-        <Exp
+        <SingleExpSummary
           heading={exp.heading}
           duration={exp.duration}
           description={exp.description}
@@ -80,4 +80,4 @@ export const Exps = () => {
   );
 };
 
-export default Exps;
+export default SummarizedExperiences;

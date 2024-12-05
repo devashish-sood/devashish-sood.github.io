@@ -1,4 +1,4 @@
-import Exps from "../components/Exps";
+import Exps from "../components/ExpSummary";
 import { Link } from "../components/Utils";
 
 const Home = () => {
