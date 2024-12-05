@@ -1,5 +1,5 @@
-import Exps from "./Exps";
-import { Link } from "./Utils";
+import Exps from "../components/Exps";
+import { Link } from "../components/Utils";
 
 const Home = () => {
   return <>
