@@ -1,7 +1,7 @@
 const Writing = () => {
   return (
     <>
-      <p>still thinking about it</p>
+      <p>planning</p>
     </>
   );
 };

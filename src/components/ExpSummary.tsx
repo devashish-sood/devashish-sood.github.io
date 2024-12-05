@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Link, Tooltip } from "./Utils";
 
-const EXPERIENCES: Array<ExpProps> = [
+const EXPERIENCES: ExpProps[] = [
   {
     heading: <Link href="https://www.klaviyo.com/" text="Klaviyo" />,
     duration: "January 2024 - July 2024",
@@ -65,7 +65,7 @@ const SingleExpSummary = (props: ExpProps) => {
   );
 };
 
-export const SummarizedExperiences = () => {
+const SummarizedExperiences = () => {
   return (
     <div>
       <h2 className="text-xl font-bold">Past Experiences</h2>
@@ -80,4 +80,4 @@ export const SummarizedExperiences = () => {
   );
 };
 
-export default SummarizedExperiences;
+export {SummarizedExperiences, type ExpProps}
