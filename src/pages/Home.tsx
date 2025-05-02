@@ -1,13 +1,12 @@
-import { SummarizedExperiences } from "../components/ExpSummary";
 import { Link } from "../components/Utils";
 
 const Home = () => {
   return (
     <>
       <p>
-        Hi, I’m Devashish, a senior studying Mathematics and Computer Science at
-        Northeastern University. I'm interested in building technology for a
-        better future.
+        Hi, I’m Devashish, a software engineer working on product @ Klaviyo.
+        Previously, I studied Math & Computer Science in Boston. I'm interested
+        in building technology for a better future.
       </p>
       <br />
       <div className="flex row">
@@ -15,26 +14,21 @@ const Home = () => {
         <div className="pl-10">
           Currently, I'm:
           <ul className="list-disc pl-4">
+            <li className="my-2">
+              reading some Roberto Bolaño, Schopenhauer, and Robert Caro books.
+            </li>
             <li className="my-2">writing an operating system in Rust.</li>
-            <li className="my-2">
-              implementing the Raft consensus protocol for distributed systems.
-            </li>
-            <li className="my-2">
-              reading{" "}
-              <Link href="https://papl.cs.brown.edu/2020/" text="PAPL" /> to
-              write my own interpreter and compiler.
-            </li>
-            <li className="my-2">
-              attempting to become a functional bro by learning some OCaml.
-            </li>
+            <li className="my-2">implementing some AI papers.</li>
             <li className="my-2">
               optimizing my burnt basque cheesecake recipe.
+            </li>
+            <li className="my-2">
+              and just generally catching up on my technical project todo list
+              :)
             </li>
           </ul>
         </div>
       </div>
-      <br />
-      <SummarizedExperiences />
       <br />
       <p>
         More information on my projects and work experiences can be found on my{" "}
