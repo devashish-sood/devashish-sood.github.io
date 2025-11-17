@@ -10,8 +10,8 @@ const Home = () => {
       </p>
       <br />
       <div className="flex row">
-        <img src="/mountains.jpg" alt="Mountains" style={{ width: "40%" }} />
-        <div className="pl-10">
+        <img src="/mountains.jpg" alt="Mountains" className="hidden md:block" style={{ width: "40%" }} />
+        <div className="md:pl-10">
           Currently, I'm:
           <ul className="list-disc pl-4">
             <li className="my-2">
