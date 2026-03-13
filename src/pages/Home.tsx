@@ -32,7 +32,7 @@ const Home = () => {
       <br />
       <p>
         More information on my projects and work experiences can be found on my{" "}
-        <Link href="/resume.pdf" text="resume" /> and{" "}
+        <Link href="https://drive.google.com/file/d/11TIYQ8hPVEQqvS0HKtSGVf_Ln6lftZUM/view?usp=sharing" text="resume" /> and{" "}
         <Link href="https://github.com/devashish-sood" text="github" />. I can
         also be contacted via{" "}
         <Link href="https://linkedin.com/in/devashishsood9" text="linkedin" />{" "}
