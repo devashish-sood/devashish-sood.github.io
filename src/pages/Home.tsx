@@ -12,21 +12,7 @@ const Home = () => {
       <div className="flex row">
         <img src="/mountains.jpg" alt="Mountains" className="hidden md:block" style={{ width: "40%" }} />
         <div className="md:pl-10">
-          Currently, I'm:
-          <ul className="list-disc pl-4">
-            <li className="my-2">
-              reading some Roberto Bolaño, Schopenhauer, and Robert Caro books.
-            </li>
-            <li className="my-2">writing an operating system in Rust.</li>
-            <li className="my-2">implementing some AI papers.</li>
-            <li className="my-2">
-              optimizing my burnt basque cheesecake recipe.
-            </li>
-            <li className="my-2">
-              and just generally catching up on my technical project todo list
-              :)
-            </li>
-          </ul>
+          Currently working on model interpretability.
         </div>
       </div>
       <br />
