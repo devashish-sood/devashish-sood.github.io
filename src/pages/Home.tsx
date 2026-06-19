@@ -4,15 +4,14 @@ const Home = () => {
   return (
     <>
       <p>
-        Hi, I’m Devashish, a software engineer working on product @ Klaviyo.
-        Previously, I studied Math & Computer Science in Boston. I'm interested
+        Hi, I’m Devashish. I previously worked as a software engineer @ Klaviyo. Before that, I studied Math & Computer Science in Boston. I'm interested
         in building technology for a better future.
       </p>
       <br />
       <div className="flex row">
         <img src="/mountains.jpg" alt="Mountains" className="hidden md:block" style={{ width: "40%" }} />
         <div className="md:pl-10">
-          <Link href="https://github.com/p3rciv3l/winnie-the-pooh-qwen" text="Currently working on model interpretability." />
+          <Link href="https://elevenlabs.io/" text="Currently working on voice models." />
         </div>
       </div>
       <br />
