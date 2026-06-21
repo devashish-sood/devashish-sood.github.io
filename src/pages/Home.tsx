@@ -11,7 +11,7 @@ const Home = () => {
       <div className="flex row">
         <img src="/mountains.jpg" alt="Mountains" className="hidden md:block" style={{ width: "40%" }} />
         <div className="md:pl-10">
-          <Link href="https://elevenlabs.io/" text="Currently working on voice models." />
+          <Link href="https://elevenlabs.io/" text="I currently work on voice AI models." />
         </div>
       </div>
       <br />
